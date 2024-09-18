@@ -8,7 +8,7 @@ import barImage from "../../public/bar.png"
 export default function AboutUs() {
     return (
         <div>
-            <div className='max-w-[1180px] w-full mx-auto flex flex-col items-center mb-40'>
+            <div className='my-28'>
                 <div className="w-full flex flex-col mt-16">
                     <NavDetails heading="ABOUT US" description='Quis vel cursus turpis imperdiet scelerisque in placerat maecenas. Orci egestas ornare nulla morbi convallis eget eros.' buttonClass='flex  justify-center items-center' subHeading="Transform Your Living Space with Smart Home System" />
                     <div className="w-full flex  flex-row">

@@ -3,9 +3,9 @@ import React from 'react'
 export default function NavDetails({heading , subHeading , buttonClass = '' , description=''}) {
   return (
     <div>
-        <span className='text-[#5C98B7] font-bold text-[18px]'>{heading}</span>
+        <span className='text-[#5C98B7] font-bold text-[18px] flex my-3'>{heading}</span>
                         <div className="w-full flex flex-row mb-12">
-                            <div className="w-[60%] text-[40px] font-semibold">
+                            <div className="w-[60%] text-[45px] font-semibold">
                                 <h1>{subHeading}</h1>
                             </div>
                             <div className="w-[40%]">

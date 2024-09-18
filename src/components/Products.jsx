@@ -1,10 +1,10 @@
 import React from 'react'
-import NavDetails from './NavDetails'
 import ProductTypeCard from './ProductTypeCard'
 import productImage1 from "../../public/productImage1.jpg"
 import productImage2 from "../../public/productImage2.jpg"
 import productImage3 from "../../public/productImage3.jpg"
 import productImage4 from "../../public/productImage4.jpg"
+import NavDetails2 from './NavDetails2'
 
 
 export default function Products() {
@@ -42,7 +42,7 @@ export default function Products() {
 
     return (
         <div className='max-w-[1180px] w-full mx-auto flex flex-col mb-40'>
-            <NavDetails heading="OUR PRODUCTS" description='' subHeading='Discover Our Range of Innovative Smart Home Products' buttonClass='hidden' />
+            <NavDetails2 heading="OUR PRODUCTS" subHeading='Discover Our Range of Innovative Smart Home Products'/>
             <div className="grid w-full gap-4 grid-cols-2">
                 {
                     products.map((item, index) => <ProductTypeCard productImg={item?.productImg} productHeading={item?.productHeading} productPrice={item.productPrice} productRating={item.productRating} buyNow={item.buyNow} />)
