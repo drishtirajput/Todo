@@ -13,7 +13,7 @@ export default function Services() {
         <div>
             <div className='flex flex-col my-40'>
                 <NavDetails heading="OUR SERVICES" description='Vitae tortor arcu eleifend nec massa dictum purus. Erat varius vulputate orci lacus gravida molestie habitant. Convallis massa hac proin rutrum nisl habitasse. Amet etiam dignissim.' subHeading='Smart Home Services for Modern Living' buttonClass='hidden' />
-                <div className="grid w-full grid-cols-3">
+                <div className="grid w-full md:grid-cols-3">
                     <ServiceTypeCard serviceImg={serviceImage1} serviceHeading="Smart Home Installation" serviceDescription="Penatibus congue ipsum condimentum ac dignissim non mi auctor. Nulla id id non enim venenatis nibh. Nunc erat morbi auctor." />
                     <ServiceTypeCard serviceImg={serviceImage2} serviceHeading="Smart Home Installation" serviceDescription="Penatibus congue ipsum condimentum ac dignissim non mi auctor. Nulla id id non enim venenatis nibh. Nunc erat morbi auctor." />
                     <ServiceTypeCard serviceImg={serviceImage3} serviceHeading="Smart Home Installation" serviceDescription="Penatibus congue ipsum condimentum ac dignissim non mi auctor. Nulla id id non enim venenatis nibh. Nunc erat morbi auctor." />

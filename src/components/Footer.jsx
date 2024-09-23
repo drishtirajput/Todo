@@ -22,61 +22,61 @@ export default function Footer() {
     return (
         <div>
             <div className='bg-black text-white w-full'>
-                <div className='max-w-[1180px] w-full mx-auto '>
-                    <div className='flex py-14 border-b-[1px]'>
-                    <div className='w-[50%]'>
-                        <div>
-                            <img src={logoImg} className='min-w-3 py-4' />
-                        </div>
-                        <div className='w-[60%] py-2'>
-                            <p>Penatibus congue ipsum condimentum ac dignissim non mi auctor. Nulla id id non enim venenatis nibh. Nunc erat morbi auctor.</p>
-                        </div>
-                        <div className='flex gap-5 py-4 text-[30px]'>
-                            {/* <div onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
+                <div className='w-[85%] mx-auto'>
+                    <div className='md:flex py-16 border-b-[1px]'>
+                        <div className='md:w-[50%] flex flex-col md:items-start justify-center items-center py-4'>
+                            <div>
+                                <img src={logoImg} className='min-w-3 py-4' />
+                            </div>
+                            <div className='md:w-[60%] py-4 w-full'>
+                                <p>Penatibus congue ipsum condimentum ac dignissim non mi auctor. Nulla id id non enim venenatis nibh. Nunc erat morbi auctor.</p>
+                            </div>
+                            <div className='flex gap-5 text-[30px]'>
+                                {/* <div onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
                                 {showText && abc}
                             </div> */}
-                            <FaTwitter />
-                            <FaFacebook />
-                            <FaInstagram />
-                            <IoLogoGithub />
+                                <FaTwitter className='hover:text-blue-300 hover:cursor-pointer' />
+                                <FaFacebook className='hover:text-blue-300 hover:cursor-pointer' />
+                                <FaInstagram className='hover:text-blue-300 hover:cursor-pointer' />
+                                <IoLogoGithub className='hover:text-blue-300 hover:cursor-pointer' />
+                            </div>
+                        </div>
+                        <div className='md:gap-20 grid md:grid-cols-3 justify-items-center'>
+                            <div>
+                                <h1 className='text-2xl'>Company</h1>
+                                <ul className='my-4 flex flex-col gap-4'>
+                                    <li>About Us</li>
+                                    <li>Our Services</li>
+                                    <li>Our Products</li>
+                                    <li>Career</li>
+                                </ul>
+                            </div>
+                            <div>
+                                <h1 className='text-2xl'>Resources</h1>
+                                <ul className='my-4 flex flex-col gap-4'>
+                                    <li>Free eBook</li>
+                                    <li>Development</li>
+                                    <li>How to - Blog</li>
+                                    <li>Youtube Channel</li>
+                                </ul>
+                            </div>
+                            <div>
+                                <h1 className='text-2xl'>Help</h1>
+                                <ul className='my-4 flex flex-col gap-4'>
+                                    <li>Customer Support</li>
+                                    <li>Delivery Details</li>
+                                    <li>Terms & Conditions</li>
+                                    <li>Privacy Policy</li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
-                    <div className='flex w-[50%] gap-20 mx-auto'>
-                        <div>
-                            <h1 className='text-[25px]'>Company</h1>
-                            <ul className='my-4 flex flex-col gap-4'>
-                                <li>About Us</li>
-                                <li>Our Services</li>
-                                <li>Our Products</li>
-                                <li>Career</li>
-                            </ul>
-                        </div>
-                        <div>
-                            <h1 className='text-[25px]'>Resources</h1>
-                            <ul className='my-4 flex flex-col gap-4'>
-                                <li>Free eBook</li>
-                                <li>Development</li>
-                                <li>How to - Blog</li>
-                                <li>Youtube Channel</li>
-                            </ul>
-                        </div>
-                        <div>
-                            <h1 className='text-[25px]'>Help</h1>
-                            <ul className='my-4 flex flex-col gap-4'>
-                                <li>Customer Support</li>
-                                <li>Delivery Details</li>
-                                <li>Terms & Conditions</li>
-                                <li>Privacy Policy</li>
-                            </ul>
-                        </div>
+                    <div className='py-5 md:flex'>
+                        <p className='text-sm'>Copyright © 2022. All Rights Reserved.</p>
+                        <p className='ml-auto text-sm'>Designed by <b>Drashti Rajput</b></p>
                     </div>
-                    </div>
-                    <div className='py-5 flex'>
-                    <p className=''>Copyright © 2022. All Rights Reserved.</p>
-                    <p className='ml-auto'>Designed by <b>Drashti Rajput</b></p>
                 </div>
-                </div>
-                
+
             </div>
         </div>
     )

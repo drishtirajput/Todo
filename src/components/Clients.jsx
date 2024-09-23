@@ -13,17 +13,16 @@ export default function Clients() {
         <div>
           <NavDetails2 heading="THE COMPATIBILITY" subHeading="Connecting You to Smarter Living Solution" />
         </div>
-        <div className='flex space-x-9 p-10 mx-28'>
-          <div><ClientsLogo LogoImg={clientImage} /></div>
-          <div><ClientsLogo LogoImg={clientImage1} /></div>
-          <div><ClientsLogo LogoImg={clientImage2} /></div>
-          <div><ClientsLogo LogoImg={clientImage3} /></div>          
-        </div>
-        <div className='flex space-x-9 p-10 mx-28'>
-          <div><ClientsLogo LogoImg={clientImage} /></div>
-          <div><ClientsLogo LogoImg={clientImage1} /></div>
-          <div><ClientsLogo LogoImg={clientImage2} /></div>
-          <div><ClientsLogo LogoImg={clientImage3} /></div>          
+        <div className='grid grid-cols-4 py-10 md:gap-10 gap-5'>
+          <div className='md:p-5'><ClientsLogo LogoImg={clientImage} /></div>
+          <div className='md:p-5'><ClientsLogo LogoImg={clientImage1} /></div>
+          <div className='md:p-5'><ClientsLogo LogoImg={clientImage2} /></div>
+          <div className='md:p-5'><ClientsLogo LogoImg={clientImage3} /></div>          
+      
+          <div className='md:p-5'><ClientsLogo LogoImg={clientImage} /></div>
+          <div className='md:p-5'><ClientsLogo LogoImg={clientImage1} /></div>
+          <div className='md:p-5'><ClientsLogo LogoImg={clientImage2} /></div>
+          <div className='md:p-5'><ClientsLogo LogoImg={clientImage3} /></div>          
         </div>
       </div>
 

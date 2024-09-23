@@ -1,11 +1,11 @@
 import React from 'react'
 
-export default function Reviews({ clientImg, name, owner, rating, discription }) {
+export default function Reviews({ clientImg, name , stars =0, owner, rating, discription }) {
     return (
         <div className='my-10'>
             <div className='flex w-full'>
-                <div className='flex px-2'>
-                    <div className='flex w-[40%] '>
+                <div className='md:flex px-2'>
+                    <div className='flex md:w-[40%] '>
                        <div className='mx-6'> 
                         <img src={clientImg} className='rounded-full' />
                        </div>
@@ -16,7 +16,7 @@ export default function Reviews({ clientImg, name, owner, rating, discription })
                     </div>
                     <div className='flex flex-col flex-1'>
                         <div className='my-2 flex gap-2'>{
-                            Array(5)?.fill()?.map((item , index) => {
+                            Array(stars)?.fill()?.map((item , index) => {
                                 return rating
                             })
                             }</div>

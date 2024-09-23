@@ -13,7 +13,7 @@ export default function App() {
   return (
     <>
       <Home />
-      <div className='max-w-[1180px] mx-auto'>
+      <div className='w-[85%] mx-auto'>
         <AboutUs />
         <ChooseUs />
         <Services />

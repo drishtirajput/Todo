@@ -55,7 +55,7 @@ export default function ChooseUs() {
     <div>
         <div className='my-40'>
             <NavDetails heading="WHY CHOOSE US" description='' subHeading='The Benefits of Partnering with Smazy' buttonClass='flex justify-center items-center ml-auto'/>
-           <div className='grid w-full gap-4 grid-cols-3'>
+           <div className='grid w-full gap-4 md:grid-cols-3'>
             {/* <Benefits benefitNo='01.' benefitHeading='Smart Home Solutions' benefitDescription='Penatibus congue ipsum condimentum ac dignissim non mi auctor. Nulla id id non enim venenatis nibh. Nunc erat morbi auctor.' />
             <Benefits benefitNo='02.' benefitHeading='Smart Home Solutions' benefitDescription='Penatibus congue ipsum condimentum ac dignissim non mi auctor. Nulla id id non enim venenatis nibh. Nunc erat morbi auctor.' />
             <Benefits benefitNo='03.' benefitHeading='Smart Home Solutions' benefitDescription='Penatibus congue ipsum condimentum ac dignissim non mi auctor. Nulla id id non enim venenatis nibh. Nunc erat morbi auctor.' />

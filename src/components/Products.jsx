@@ -43,7 +43,7 @@ export default function Products() {
     return (
         <div className='max-w-[1180px] w-full mx-auto flex flex-col mb-40'>
             <NavDetails2 heading="OUR PRODUCTS" subHeading='Discover Our Range of Innovative Smart Home Products'/>
-            <div className="grid w-full gap-4 grid-cols-2">
+            <div className="grid w-full gap-4 md:grid-cols-2">
                 {
                     products.map((item, index) => <ProductTypeCard productImg={item?.productImg} productHeading={item?.productHeading} productPrice={item.productPrice} productRating={item.productRating} buyNow={item.buyNow} />)
                 }
